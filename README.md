@@ -17,7 +17,6 @@
           </div>
         </div>
       </header>
-
       <section role="main">
         <article>
           <section>
@@ -30,7 +29,6 @@
               cloud computing and building as well as maintaining cloud
               infrastructure.
             </p>
-
             <h3>Favourite Tools</h3>
             <ul>
               <li><b>Languages:</b> Go, Python, C, Javascript, and SQL.</li>
@@ -45,7 +43,6 @@
               <li><b>Shells:</b> Bash, ZSH</li>
             </ul>
             <p></p>
-
             <h3>Projects</h3>
             <p>Here are some of the notable projects I've worked on:</p>
             <ul>
@@ -71,7 +68,6 @@
                 simplifying development in Go, C, Python, and Rust.
               </li>
             </ul>
-
             <h3>Open source</h3>
             <p>
               My open source journey includes contributions to the following
@@ -86,7 +82,6 @@
                 Go toolchain.
               </li>
             </ul>
-
             <h3 id="hiring-me">Hiring me</h3>
             <p>
               I presently live in Nigeria and actively spend my time trying to
@@ -108,7 +103,6 @@
                 >
               </li>
             </ul>
-
             <h3>Contact</h3>
             <p>
               You can view my contact info
@@ -127,7 +121,6 @@
                 >
               </li>
             </ul>
-
             <h3 id="legal">Legal</h3>
             <p>
               All original content on this site is licensed under
@@ -142,6 +135,5 @@
         </article>
       </section>
     </div>
-
-</body>
+  </body>
 </html>
