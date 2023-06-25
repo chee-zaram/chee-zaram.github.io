@@ -3,27 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <title>Contacts</title>
-    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" type="" href="../styles/main.css" />
+    <script type="text/javascript">
+      // JavaScript function to decode the obfuscated email address
+      function decodeEmail(encodedString) {
+        var email = "";
+        for (var i = 0; i < encodedString.length; i += 2) {
+          email += String.fromCharCode(parseInt(encodedString.substr(i, 2), 16));
+        }
+        return email;
+      }
+    </script>
   </head>
 
   <body>
     <div id="toplevel">
-      <div id="header">
-        <h1>Contacts</h1>
-        <img src="/contact/prof_pic.jpg" alt="Profile Photo" />
-      </div>
-      <div id="caption">A passport-sized photo</div>
-
-      <div class="block">
-        <h2>Contact Information</h2>
-        <p>Name: Emmuel Chee-zaram Okeke</p>
-        <p>Email: ecokeke21@gmail.com</p>
-        <p>Phone: +234-703-863-9012</p>
-      </div>
-
-      <div id="footer">
-        <p>&copy; 2023 Emmanuel Chee-zaram Okeke</p>
-      </div>
+      <header id="header" class="no-print">
+        <div id="caption"><a href="/index.html">Chee-zaram Okeke</a></div>
+        <div id="menu">
+          <div>
+            <div>
+              <a href="/index.html#about-me" class="menu-item menu-selected"> About </a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href="/index.html#tools" class="menu-item menu-selected"> Tools </a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href="/index.html#projects" class="menu-item menu-selected"> Projects </a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href="/index.html#hiring" class="menu-item menu-selected"> Hiring </a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href="/contact/index.html" class="menu-item menu-selected"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="contact-section">
+        <h2>Contact Information</h1>
+        <img id="photo" src="/contact/prof_pic.jpg" alt="Profile Photo" />
+        <div id="container">
+          <h2>Contact Form</h2>
+          <form action="process_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </section>
     </div>
   </body>
 </html>
