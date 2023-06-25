@@ -2,18 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <title>Contacts</title>
-    <link rel="stylesheet" type="" href="../styles/main.css" />
-    <script type="text/javascript">
-      // JavaScript function to decode the obfuscated email address
-      function decodeEmail(encodedString) {
-        var email = "";
-        for (var i = 0; i < encodedString.length; i += 2) {
-          email += String.fromCharCode(parseInt(encodedString.substr(i, 2), 16));
-        }
-        return email;
-      }
-    </script>
+    <link rel="stylesheet" type="" href="/styles/main.css" />
   </head>
 
   <body>
@@ -23,27 +14,21 @@
         <div id="menu">
           <div>
             <div>
-              <a href="/index.html#about-me" class="menu-item menu-selected"> About </a>
+              <a href="/index.html#projects" class="menu-item menu-selected">
+                Projects
+              </a>
             </div>
           </div>
           <div>
             <div>
-              <a href="/index.html#tools" class="menu-item menu-selected"> Tools </a>
+              <a href="/index.html#hiring-me" class="menu-item menu-selected">
+                Hire
+              </a>
             </div>
           </div>
           <div>
             <div>
-              <a href="/index.html#projects" class="menu-item menu-selected"> Projects </a>
-            </div>
-          </div>
-          <div>
-            <div>
-              <a href="/index.html#hiring" class="menu-item menu-selected"> Hiring </a>
-            </div>
-          </div>
-          <div>
-            <div>
-              <a href="/contact/index.html" class="menu-item menu-selected"
+              <a href="/index.html#contact" class="menu-item menu-selected"
                 >Contact</a
               >
             </div>
@@ -51,15 +36,23 @@
         </div>
       </header>
       <section id="contact-section">
-        <h2>Contact Information</h1>
+        <h2>Contact Form</h2>
         <img id="photo" src="/contact/prof_pic.jpg" alt="Profile Photo" />
         <div id="container">
-          <h2>Contact Form</h2>
           <form action="process_form.php" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Submit">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input type="submit" value="Submit" />
           </form>
         </div>
       </section>

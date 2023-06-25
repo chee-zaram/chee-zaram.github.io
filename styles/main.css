@@ -426,7 +426,7 @@ div.youtube iframe {
 
 /* mobile */
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   #caption {
     font-size: 18px !important;
   }
@@ -531,11 +531,9 @@ hr {
   background-color: #45a049;
 }
 
-/* .contact-info { */
-/*   margin-bottom: 10px; */
-/*   text-align: left; */
-/* } */
-/**/
-/* .contact-info p { */
-/*   margin: 5px; */
-/* } */
+@media (max-width: 480px) {
+  #container {
+    max-width: 80%;
+    padding: 10px;
+  }
+}
