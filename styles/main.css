@@ -17,17 +17,11 @@ h3,
 h4,
 .post-time {
   font-family: "Inconsolata", Sans-Serif;
-  src: local("Inconsolata"), url("/inconsolata.otf");
+  src: local("Inconsolata"), url("./inconsolata.otf");
 }
 
 body {
   font-family: "Inconsolata", Sans-Serif;
-}
-
-.post-tag,
-pre,
-code {
-  font-family: "Roboto Mono", monospace !important;
 }
 
 .verbatim-table th {
@@ -35,7 +29,7 @@ code {
 }
 
 .verbatim-table td {
-  font-family: "Roboto Mono", monospace !important;
+  font-family: "Inconsolata", monospace !important;
 }
 
 /* font size */
@@ -394,7 +388,7 @@ h4:hover .anchor i {
 .block-header {
   font-size: 20px;
   font-weight: bold;
-  font-family: "Roboto Mono", monospace !important;
+  font-family: "Inconsolata", monospace !important;
 }
 
 .block {
