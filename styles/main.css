@@ -16,11 +16,12 @@ h2,
 h3,
 h4,
 .post-time {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inconsolata", Sans-Serif;
+  src: local("Inconsolata"), url("/inconsolata.otf");
 }
 
 body {
-  font-family: "Lustria", serif;
+  font-family: "Inconsolata", Sans-Serif;
 }
 
 .post-tag,
