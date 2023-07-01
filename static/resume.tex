@@ -1,0 +1,58 @@
+\expandafter\def\csname ver@fontenc.sty\endcsname{}
+\expandafter\def\csname opt@fontenc.sty\endcsname{T1}
+\PassOptionsToPackage{pdfpagelabels=false,unicode}{hyperref}
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm,asymmetric]{geometry}
+
+\usepackage[pdfa]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\renewcommand*{\emailsymbol}{}
+\renewcommand*{\homepagesymbol}{}
+
+\firstname{Emmanuel Chee-zaram}
+\familyname{Okeke}
+\email{cheezaram@cheezaram.tech}
+\homepage{cheezaram.tech}
+\extrainfo{\httplink{github.com/chee-zaram}}
+
+\nopagenumbers{}
+\begin{document}
+\makecvtitle
+\vspace{-1cm}
+
+\section{Education}
+\cventry{\footnotesize\\[-.42cm]Aug 2022\\[-.1cm]Sep 2023}{Full-stack Software Engineering Programme}{\href{https://www.alxafrica.com/software-engineering/}{
+    Africa Leadership X}}{Remote}{}{Project-based learning. Specialization in Back-end (Node.js, Python, C, Shell, Nginx, HAProxy) }
+\cventry{\footnotesize\\[-.50cm]2017 - 2021}{B.S. Microbiology}{\href{https://www.uam.edu.ng/}{Joseph Sarwuan Tarka University, Makurdi}}{Benue, Nigeria}{}{
+Among the Top Graduating Students, Department of Microbiology and College of Science}
+
+\section{Open-source}
+\cvline{\href{https://mvdan.cc/garble}{garble}}{Obfuscate \textit{Go} builds. Made improvements to scripts for test automation}
+\cvline{\href{https://github.com/cue-lang/cue}{CUE}}{A data constraint language written in \textit{Go}}
+\cvline{\href{https://github.com/mdn/content}{MDN}}{Made improvements to the MDN web docs}
+
+\section{Side projects}
+\cvline{\href{https://github.com/OvyEvbodi/simple_shell}{tRash}}{A simple shell based off \textit{sh}}
+\cvline{\href{https://github.com/chee-zaram/monty}{monty}}{A basic interpreter for \textit{Monty} byte-codes}
+
+\section{Programming languages}
+\cvline{Experienced}{\textit{Go}, \textit{Python}, \textit{C}, \textit{Shell}}
+\cvline{Familiar}{JavaScript, Lua, SQL}
+
+\section{Favourite Tools}
+\cvline{Go}{Experienced with building CLI tools, web servers, and APIs. Familiar with tests and benchmarks}
+\cvline{Git}{Experienced with branches, rebasing, and conflicts. Familiar with release workflow, docs, etc}
+\cvline{DBMS}{Experienced with \textit{MySQL}, \textit{PostgreSQL}, \textit{MongoDB}}
+\cvline{Linux}{Using \textit{GNU/Linux} for over 2 years as primary OS}
+\cvline{Containers}{Familiar with \textit{Docker} and \textit{Kubernetes}}
+\cvline{Virtualization}{Familiar with \textit{Vagrant}}
+
+\section{Skills}
+\cvline{Languages}{Native in English. Proficient in Igbo}
+
+\end{document}
