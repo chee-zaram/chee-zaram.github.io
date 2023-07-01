@@ -1,4 +1,4 @@
-OUTPUT = resume.pdf
+OUTPUT = cheezaram_okeke_resume.pdf
 CLEAN  = '*~' '\#*' '.\#*' '.DS_Store' '*.log' '*.aux' '*.toc' '*.nav' '*.out' '*.snm' '*.vrb' '*.blg' '*.bbl'
 
 all: $(OUTPUT);
