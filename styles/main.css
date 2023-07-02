@@ -25,7 +25,7 @@ body {
 }
 
 .verbatim-table th {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .verbatim-table td {
@@ -35,66 +35,66 @@ body {
 /* font size */
 
 body {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 #caption {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .post-title {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .post-tag,
 pre,
 code {
-  font-size: 14px !important;
+  font-size: 12px !important;
 }
 
 .post-time,
 .paginator {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .tag-header {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 h1,
 h2 {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 h3 {
-  font-size: 19px;
+  font-size: 15px;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h1 code,
 h2 code {
-  font-size: 26px !important;
+  font-size: 20px !important;
 }
 
 h3 code {
-  font-size: 19px !important;
+  font-size: 15px !important;
 }
 
 h4 code {
-  font-size: 16px !important;
+  font-size: 12px !important;
 }
 
 table,
 th,
 .flex_table {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .small-label {
-  font-size: 9px;
+  font-size: 8px;
 }
 
 /* colors and borders */
@@ -386,7 +386,7 @@ h4:hover .anchor i {
 /* block */
 
 .block-header {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   font-family: "Inconsolata", monospace !important;
 }
@@ -423,15 +423,15 @@ div.youtube iframe {
 
 @media only screen and (max-width: 480px) {
   #caption {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
   .menu-item {
-    font-size: 16px !important;
+    font-size: 12px !important;
   }
   table,
   th,
   .flex_table {
-    font-size: 13px !important;
+    font-size: 10px !important;
   }
   #menu > div {
     padding: 2px 8px !important;
@@ -519,7 +519,7 @@ hr {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #container input[type="submit"]:hover {
